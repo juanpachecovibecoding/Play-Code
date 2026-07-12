@@ -1,0 +1,6 @@
+{
+  "name": "Play Code Landing Page",
+  "description": "Landing page oficial de Play Code, organización de educación digital, programación, robótica y ciencia STEAM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
