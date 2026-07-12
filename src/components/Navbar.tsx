@@ -50,10 +50,12 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="#contacto"
+              href="https://edu.playcode.com.ar/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-2.5 bg-[#ff6b6b] hover:bg-[#ff5252] text-white text-sm font-pixel tracking-wide border-2 border-slate-900 shadow-[4px_4px_0_0_#0f172a] active:shadow-[0px_0px_0_0_#0f172a] active:translate-y-[4px] active:translate-x-[4px] transition-all"
             >
-              Contáctanos
+              IR A LA PLATAFORMA
             </a>
           </div>
 
@@ -87,6 +89,14 @@ export default function Navbar() {
                   {link.name}
                 </a>
               ))}
+              <a
+                href="https://edu.playcode.com.ar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full px-6 py-3 bg-[#ff6b6b] hover:bg-[#ff5252] text-white text-sm font-pixel tracking-wide border-2 border-slate-900 shadow-[4px_4px_0_0_#0f172a] active:shadow-[0px_0px_0_0_#0f172a] active:translate-y-[4px] active:translate-x-[4px] transition-all text-center uppercase"
+              >
+                IR A LA PLATAFORMA
+              </a>
             </div>
           </motion.div>
         )}

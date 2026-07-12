@@ -23,20 +23,20 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-4 py-2 bg-[#4ecdc4] border-2 border-slate-900 shadow-[4px_4px_0_0_#0f172a] text-slate-900 font-pixel tracking-wide mb-8"
+            className="inline-flex items-center gap-2 px-4 py-2 bg-[#4ecdc4] border-2 border-slate-900 shadow-[4px_4px_0_0_#0f172a] text-slate-900 font-pixel tracking-wide mb-8 text-xs sm:text-sm"
           >
             <Sparkles size={16} />
-            <span>LEVEL UP EDUCACIÓN S.T.E.A.M.</span>
+            <span className="leading-relaxed">LEVEL UP EDUCACIÓN S.T.E.A.M.</span>
           </motion.div>
           
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 tracking-tight mb-8"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 tracking-tight mb-8"
           >
-            Despierta el amor por la <br className="hidden md:block"/>
-            <span className="font-pixel text-indigo-600 tracking-wider" style={{ textShadow: '4px 4px 0 #cbd5e1' }}>
+            Despierta el amor por la <br className="hidden sm:block"/>
+            <span className="font-pixel text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-indigo-600 tracking-wider block mt-4 sm:mt-6" style={{ textShadow: '4px 4px 0 #cbd5e1' }}>
               CIENCIA Y TECNOLOGÍA
             </span>
           </motion.h1>
@@ -55,20 +55,20 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="flex flex-col sm:flex-row justify-center gap-6"
+            className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6"
           >
             <a
               href="#cursos"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#ffe66d] hover:bg-[#ffd166] text-slate-900 font-pixel tracking-wide border-4 border-slate-900 shadow-[6px_6px_0_0_#0f172a] active:shadow-[0px_0px_0_0_#0f172a] active:translate-y-[6px] active:translate-x-[6px] transition-all"
+              className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-4 bg-[#ffe66d] hover:bg-[#ffd166] text-slate-900 font-pixel tracking-wide border-4 border-slate-900 shadow-[6px_6px_0_0_#0f172a] active:shadow-[0px_0px_0_0_#0f172a] active:translate-y-[6px] active:translate-x-[6px] transition-all text-sm sm:text-base w-full sm:w-auto"
             >
-              <Rocket size={20} />
+              <Rocket size={20} className="shrink-0" />
               VER CURSOS
             </a>
             <a
               href="#nosotros"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white hover:bg-slate-50 text-slate-900 font-pixel tracking-wide border-4 border-slate-900 shadow-[6px_6px_0_0_#0f172a] active:shadow-[0px_0px_0_0_#0f172a] active:translate-y-[6px] active:translate-x-[6px] transition-all"
+              className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-4 bg-white hover:bg-slate-50 text-slate-900 font-pixel tracking-wide border-4 border-slate-900 shadow-[6px_6px_0_0_#0f172a] active:shadow-[0px_0px_0_0_#0f172a] active:translate-y-[6px] active:translate-x-[6px] transition-all text-sm sm:text-base w-full sm:w-auto"
             >
-              <MonitorPlay size={20} />
+              <MonitorPlay size={20} className="shrink-0" />
               CONÓCENOS
             </a>
           </motion.div>
